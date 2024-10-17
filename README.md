@@ -23,7 +23,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 1. **Clona el repositorio**
 
    ```bash
-   $ git clone <URL_DEL_REPOSITORIO>
+   $ git clone https://github.com/dalejandrov/ldap-auth
    $ cd ldap-auth
    ```
 
