@@ -15,7 +15,8 @@ const __dirname = path.dirname(__filename);
 const ldapUrl = process.env.LDAP_URL;
 const domain = process.env.DOMAIN;
 const client = ldap.createClient({
-  url: ldapUrl
+  url: ldapUrl,
+  reconnect: true
 });
 
 app.use(express.static('public'));
